@@ -1,0 +1,491 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "montserrat", sans-serif;
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+#header {
+  padding: 37px 0 80px 0;
+}
+.header-container {
+  width: 75%;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-nav a {
+  color: var(--, #2a2d46);
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0 30px;
+}
+.header-nav .header-namber {
+  color: var(--, #2a2d46);
+  font-size: 13px;
+  font-weight: 700;
+}
+.header-nav span {
+  position: relative;
+  top: 5px;
+  font-size: 20px;
+}
+.header-nav a:hover {
+  color: #eb2d66;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.header-nav span:hover {
+  color: #eb2d66;
+  font-size: 22px;
+}
+.header-nav button {
+  width: 130px;
+  height: 30px;
+  background: white;
+  border: 1px solid #eb2d66;
+  color: #eb2d66;
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.header-nav button:hover {
+  background: #eb2d66;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.header-praice {
+  color: #eb2d66;
+  font-size: 30px;
+}
+.header-praice select {
+  position: relative;
+  bottom: 7px;
+  color: var(--, #2a2d46);
+  font-size: 12px;
+  font-weight: 700;
+  border: none;
+  outline: none;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-title h1 {
+  color: var(--, #2a2d46);
+  font-size: 36px;
+  font-weight: 900;
+  line-height: normal;
+}
+.hero-title h1:hover{
+  color: #eb2d66;
+  transition: 1s;
+}
+.hero-title p {
+  color: var(--, #2a2d46);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 145.4%; /* 23.264px */
+  margin: 40px 0 45px 0;
+}
+.hero-title button {
+  width: 244px;
+  height: 57px;
+  background: #eb2d66;
+  box-shadow: 0px 7px 35px 0px rgba(235, 45, 102, 0.35);
+  color: white;
+  font-size: 15px;
+  font-weight: 900;
+  cursor: pointer;
+}
+.hero-title button:hover {
+  background: #fff;
+  border: 1px solid #eb2d66;
+  color: #eb2d66;
+}
+.hero-img {
+  position: relative;
+  left: 95px;
+  -webkit-box-shadow: 33px 40px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 33px 40px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 33px 40px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.drone {
+  position: absolute;
+  top: 63px;
+  left: -150px;
+}
+.drone-text div {
+  position: relative;
+  right: 20px;
+  background: white;
+  width: 13px;
+  height: 13px;
+}
+.drone-text h1 {
+  font-size: 18px;
+  font-weight: 800;
+  color: white;
+}
+.drone-text p {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  padding: 10px 0;
+}
+.drone-text h3 {
+  font-size: 18px;
+  font-weight: 800;
+  color: white;
+}
+.drone-text {
+  position: absolute;
+  bottom: 57px;
+  right: 138px;
+}
+.drone-kvad1 {
+  width: 40px;
+  height: 8px;
+  background: rgb(180, 179, 179);
+}
+.drone-kvad2 {
+  width: 40px;
+  height: 8px;
+  background: white;
+  margin: 0 15px;
+}
+.drone-kvad {
+  position: absolute;
+  bottom: 16px;
+  left: 34px;
+  display: flex;
+}
+
+.drone-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+  color: white;
+  font-size: 28px;
+}
+#section-swaiper {
+  width: 92%;
+  margin: 0 auto;
+}
+.section-swaiper {
+  display: flex;
+  align-items: center;
+  margin: 150px 0 66px 150px;
+}
+.section-swaiper a {
+  color: #2a2d46;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0 25px 0 25px;
+}
+.section-swaiper a:hover{
+    color: #eb2d66;
+    font-size: 18px;
+    text-decoration: underline;
+}
+.section-swaiper h1 {
+  color: #2a2d46;
+  font-size: 25px;
+  font-weight: 900;
+  margin: 0 80px 0 0;
+}
+
+.box1 h1 {
+  color: #2a2d46;
+  font-size: 17px;
+  font-weight: 900;
+  margin: 20px 0 20px 0;
+}
+.box1-text {
+  display: flex;
+  margin-top: 30px;
+}
+.box1-left {
+  color: #2c3ba0;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 154.9%; /* 18.588px */
+}
+.box1-right {
+  color: #646986;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 154.9%; /* 18.588px */
+  margin-left: 10px;
+}
+.box-praice h1 {
+  color: var(--, #0c76d8);
+  font-size: 15px;
+  font-weight: 900;
+}
+.box-praice .box-icon {
+  margin: 20px 0 20px 90px;
+  color: #eb2d66;
+}
+.box-praice {
+  display: flex;
+}
+.iphone {
+  width: 270px;
+  height: 487px;
+  background: #fff;
+  /* Тень карточки */
+  box-shadow: 0px 15px 50px 0px rgba(67, 76, 109, 0.08);
+}
+.box1 {
+  padding: 21px 20px 34px 39px;
+}
+.box-swaiper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 70px 0 70px;
+  margin-bottom: 30px;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  #hero2{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .containers div{
+  
+    width: 470px;
+    height: 6px;
+    background: #8a8fac;
+  }
+  .containers .hero2-container{
+    position: relative;
+    top: -2px;
+    left: 259px;
+    width: 47px;
+    height: 13px;
+background: #4f5158;
+  }
+.containers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 103px 0 100px 0;
+}
+.container2 img{
+position: relative;
+}
+.hero2-text{
+        position: absolute;
+        bottom: -980px;
+        left: 300px;
+    
+}
+.hero2-kvad div{
+    width: 23px;
+    height: 23px;
+  background: white;
+position: relative;
+left: -30px;
+}
+.hero2-kvad h1{
+    color:  #2A2D46;
+/* Заголовок h2 */
+font-size: 25px;
+font-weight: 900;
+
+}
+.hero2-kvad{
+    display: flex;
+    gap: 200px;
+}
+.hero2-text h2{
+    color: #FFF;
+font-size: 27px;
+font-weight: 900;
+line-height: 121.4%; 
+margin: 15px 0 15px 0;
+}
+.hero2-text p{
+    color: #FFF;
+font-size: 16px;
+font-weight: 400;
+
+}
+.hero2-text span{
+    width: 30px;
+    height: 35px;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 800;
+    position: absolute;
+    top: -156px;
+    right: -10px;
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.hero2 img{
+    position: relative;
+}
+.hero2-title span{
+    width: 30px;
+    height: 35px;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 800;
+    position: absolute;
+    top: -195px;
+    right: -105px; 
+}
+.hero2-kvadrat div{
+    width: 23px;
+    height: 23px;
+  background: white;
+position: relative;
+left: -30px;
+}
+.hero2-kvadrat h2{
+    color: #FFF;
+    font-size: 27px;
+    font-weight: 900;
+    line-height: 121.4%; 
+    margin: 15px 0 15px 0;
+}
+.hero2-title p{
+    color: #ffffff;
+font-size: 16px;
+font-weight: 400;
+}
+ .hero2-title{
+    position: absolute;
+    bottom: -1011px;
+    left: 1104px;
+}
+.gadjet h2{
+    color: #2A2D46;
+/* Заголовок h2 */
+font-size: 25px;
+font-weight: 900;
+margin-top: 101px;
+  margin-left: 137px;
+}
+.gadjet-praice h1{
+    color:#2A2D46;
+font-size: 50px;
+font-weight: 900;
+}
+.gadjet-praice h1:hover{
+color: #2c3ba0;
+}
+.gadjet-praice p{
+    color: #2A2D46;
+/* Текст в параграфах */
+font-size: 14px;
+font-weight: 400;
+
+}
+.gadjet-praice p:hover{
+    color: #eb2d66;
+font-size: 17px;
+font-weight: 600;
+}
+.gadjet-praice{
+    margin: 70px 85px 70px 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#footer-container{
+    width: 100%;
+    height: 310px;
+    background-color: #2A2D46;
+}
+.footer-hero a{
+    color: #FFF;
+font-size: 16px;
+font-weight: 400;
+margin: 0 20px 0 20px;
+}
+.footer-hero span{
+    color: white;
+    width: 18px;
+height: 4px;
+margin-left: 50px;
+}
+.footer-hero button{
+        width: 130px;
+        height: 30px;
+        background: #2A2D46;
+        border: 1px solid #eb2d66;
+        color: #eb2d66;
+        font-size: 14px;
+        font-weight: 700;
+        cursor: pointer;
+        margin-right: 150px;
+      }
+
+    .footer-hero button:hover {
+        background: #eb2d66;
+        border: 1px solid #fff;
+        color: #fff;
+      } 
+      .footer-img{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 20px;
+     margin-left: 190px;
+        padding-top: 150px;
+        margin-right: 50px;
+      }
+.footer-hero .footer-namber{
+    color: #FFF;
+font-size: 16px;
+font-weight: 700;
+margin: 0 70px 0 90px;
+}
+.footer-hero a:hover{
+  color: purple;
+  transition: 0.5s;
+}
